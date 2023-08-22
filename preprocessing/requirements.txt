@@ -1,0 +1,9 @@
+matplotlib
+h5py
+numpy
+scipy
+pyyaml
+easydict
+graphviz
+cython
+manga109api

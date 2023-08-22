@@ -1,0 +1,8 @@
+ninja
+yacs
+cython
+matplotlib
+tqdm
+torchtext==0.4
+pandas
+manga109api
