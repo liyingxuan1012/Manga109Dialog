@@ -7,7 +7,33 @@
     - Download from https://github.com/manga109/public-annotations
 
 ## Data preprocessing
-Check [README.md](proprocessing/README.md).
+Check [README.md](preprocessing/README.md).
 
 ## Environment setup
 Check [INSTALL.md](speaker_prediction/INSTALL.md) for installation instructions.
+
+## How to run
+```
+# Training
+bash comic_sgg.sh
+
+# Test
+bash comic_sgg_test.sh
+```
+
+## Evaluation
+```
+# PredCls / SGCls
+python evaluation_and_visualization/eval_original.py
+
+# SGDet
+python evaluation_and_visualization/eval_original_sgdet.py
+```
+
+## Visualization
+The visualization tools for predictions can be found in ``evaluation_and_visualization/``.
+
+- 1.visualize_PredCls_and_SGCls.ipynb
+- 2.visualize_SGDet.ipynb
+- 3.visualize_SGDet.ipynb
+- 4.visualize_custom_SGDet.ipynb
