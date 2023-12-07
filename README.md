@@ -33,6 +33,19 @@ python evaluation_and_visualization/eval_original_sgdet.py
 ## Visualization
 The visualization tools for predictions can be found in ``evaluation_and_visualization/``.
 
+## Citation
+When using annotations of Manga109Dialog, please cite our paper.
+```
+@misc{li2023manga109dialog,
+      title={Manga109Dialog A Large-scale Dialogue Dataset for Comics Speaker Detection}, 
+      author={Yingxuan Li and Kiyoharu Aizawa and Yusuke Matsui},
+      year={2023},
+      eprint={2306.17469},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+
 - 1.visualize_PredCls_and_SGCls.ipynb
 - 2.visualize_SGDet.ipynb
 - 3.visualize_SGDet.ipynb
