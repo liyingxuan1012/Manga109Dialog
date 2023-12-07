@@ -32,6 +32,10 @@ python evaluation_and_visualization/eval_original_sgdet.py
 
 ### Visualization
 The visualization tools for predictions can be found in ``evaluation_and_visualization/``.
+- 1.visualize_PredCls_and_SGCls.ipynb
+- 2.visualize_SGDet.ipynb
+- 3.visualize_SGDet.ipynb
+- 4.visualize_custom_SGDet.ipynb
 
 ### Citation
 When using annotations of Manga109Dialog, please cite our paper.
@@ -45,8 +49,3 @@ When using annotations of Manga109Dialog, please cite our paper.
       primaryClass={cs.CV}
 }
 ```
-
-- 1.visualize_PredCls_and_SGCls.ipynb
-- 2.visualize_SGDet.ipynb
-- 3.visualize_SGDet.ipynb
-- 4.visualize_custom_SGDet.ipynb
