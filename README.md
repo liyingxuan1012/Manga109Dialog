@@ -1,18 +1,18 @@
 # SGG_based_speaker_prediction
 
-## Prerequisites
+### Prerequisites
 - **Manga109 dataset**
     - Download from http://www.manga109.org/en/download.html
 - **Manga109 Dialog annotation**
     - Download from https://github.com/manga109/public-annotations
 
-## Data preprocessing
+### Data preprocessing
 Check [README.md](preprocessing/README.md).
 
-## Environment setup
+### Environment setup
 Check [INSTALL.md](speaker_prediction/INSTALL.md) for installation instructions.
 
-## How to run
+### How to run
 ```
 # Training
 bash comic_sgg.sh
@@ -21,7 +21,7 @@ bash comic_sgg.sh
 bash comic_sgg_test.sh
 ```
 
-## Evaluation
+### Evaluation
 ```
 # PredCls / SGCls
 python evaluation_and_visualization/eval_original.py
@@ -30,10 +30,10 @@ python evaluation_and_visualization/eval_original.py
 python evaluation_and_visualization/eval_original_sgdet.py
 ```
 
-## Visualization
+### Visualization
 The visualization tools for predictions can be found in ``evaluation_and_visualization/``.
 
-## Citation
+### Citation
 When using annotations of Manga109Dialog, please cite our paper.
 ```
 @misc{li2023manga109dialog,
