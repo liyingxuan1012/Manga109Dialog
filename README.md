@@ -1,5 +1,7 @@
-# SGG_based_speaker_prediction
+# Manga109Dialog: A Large-scale Dialogue Dataset for Comics Speaker Detection
 
+Official repository of Manga109Dialog (ICME 2024) |
+[Paper](https://arxiv.org/abs/2306.17469) | [Dataset](https://github.com/manga109/public-annotations?tab=readme-ov-file#manga109dialog)
 ### Prerequisites
 - **Manga109 dataset**
     - Download from http://www.manga109.org/en/download.html
