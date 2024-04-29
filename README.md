@@ -5,43 +5,35 @@ Official repository of Manga109Dialog (ICME 2024) |
 ## Prerequisites
 - **Manga109 dataset**
     - Download from http://www.manga109.org/en/download.html
-- **Manga109 Dialog annotation**
+- **Manga109Dialog annotation**
     - Download from https://github.com/manga109/public-annotations
-
-## Data preprocessing
-Check [README.md](preprocessing/README.md).
 
 ## Environment setup
 Check [INSTALL.md](speaker_prediction/INSTALL.md) for installation instructions.
 
-## How to run
-```
-# Training
-bash comic_sgg.sh
+## Data preprocessing
+Check [README.md](preprocessing/README.md).
 
-# Test
-bash comic_sgg_test.sh
+## Speaker prediction
+```
+Check [README.md](speaker_prediction/README.md).
 ```
 
 ## Evaluation
 ```
 # PredCls / SGCls
-python evaluation_and_visualization/eval_original.py
+python eval_and_vis/eval_original.py
 
 # SGDet
-python evaluation_and_visualization/eval_original_sgdet.py
+python eval_and_vis/eval_original_sgdet.py
 ```
 
 ## Visualization
-The visualization tools for predictions can be found in ``evaluation_and_visualization/``.
+The visualization tools for predictions can be found in ``eval_and_vis/``.
 - 1.visualize_PredCls_and_SGCls.ipynb
 - 2.visualize_SGDet.ipynb
 - 3.visualize_SGDet.ipynb
 - 4.visualize_custom_SGDet.ipynb
-
-## Demo
-```
-```
 
 ### Citation
 When using annotations of Manga109Dialog, please cite our paper.

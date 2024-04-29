@@ -5,9 +5,9 @@ import csv
 import numpy as np
 
 
-roidb_file = "/home/ace14550vm/Comic-SGG/datasets/vg/VG-SGG-with-attri-frame.h5"
-image_file = "/home/ace14550vm/Comic-SGG/datasets/vg/image_data.json"
-det_input = torch.load("/groups/gcc50494/home/li/pretrained_faster_rcnn_frame/inference/VG_stanford_filtered_with_attribute_test/eval_results.pytorch")
+roidb_file = "speaker_prediction/datasets/vg/VG-SGG-with-attri-frame.h5"
+image_file = "speaker_prediction/datasets/vg/image_data.json"
+det_input = torch.load("pretrained_model/pretrained_faster_rcnn_frame/inference/VG_stanford_filtered_with_attribute_test/eval_results.pytorch")
 
 roi_h5 = h5py.File(roidb_file, 'r')
 data_split = roi_h5['split'][:]

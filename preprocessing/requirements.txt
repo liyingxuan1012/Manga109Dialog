@@ -6,4 +6,5 @@ pyyaml
 easydict
 graphviz
 cython
+pandas
 manga109api

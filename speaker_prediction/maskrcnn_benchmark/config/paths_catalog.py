@@ -113,11 +113,11 @@ class DatasetCatalog(object):
             "image_file": "vg/image_data.json",
         },
         "VG_stanford_filtered_with_attribute": {
-            "img_dir": "/home/ace14550vm/Comic-SGG/datasets/vg/images",
-            "roidb_file": "/home/ace14550vm/Comic-SGG/datasets/vg/VG-SGG-with-attri.h5",
-            "dict_file": "/home/ace14550vm/Comic-SGG/datasets/vg/VG-SGG-dicts-with-attri.json",
-            "image_file": "/home/ace14550vm/Comic-SGG/datasets/vg/image_data.json",
-            "capgraphs_file": "/home/ace14550vm/Comic-SGG/datasets/vg/vg_capgraphs_anno.json",
+            "img_dir": "speaker_prediction/datasets/vg/images",
+            "roidb_file": "speaker_prediction/datasets/vg/VG-SGG-with-attri.h5",
+            "dict_file": "speaker_prediction/datasets/vg/VG-SGG-dicts-with-attri.json",
+            "image_file": "speaker_prediction/datasets/vg/image_data.json",
+            "capgraphs_file": "speaker_prediction/datasets/vg/vg_capgraphs_anno.json",
         },
     }
 
