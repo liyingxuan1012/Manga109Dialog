@@ -15,9 +15,7 @@ Check [INSTALL.md](speaker_prediction/INSTALL.md) for installation instructions.
 Check [README.md](preprocessing/README.md).
 
 ## Speaker prediction
-```
 Check [README.md](speaker_prediction/README.md).
-```
 
 ## Evaluation
 ```
@@ -35,7 +33,7 @@ The visualization tools for predictions can be found in ``eval_and_vis/``.
 - 3.visualize_SGDet.ipynb
 - 4.visualize_custom_SGDet.ipynb
 
-### Citation
+## Citation
 When using annotations of Manga109Dialog, please cite our paper.
 ```
 @inproceedings{li2024manga109dialog,
