@@ -12,12 +12,17 @@ Official repository of Manga109Dialog (ICME 2024) |
 Check [INSTALL.md](speaker_prediction/INSTALL.md) for installation instructions.
 
 ## Data preprocessing
-Check [README.md](preprocessing/README.md).
+Convert the annotations from Manga109 into a format suitable for the scene graph generation (SGG) models. 
+
+For more details, check [README.md](preprocessing/README.md).
 
 ## Speaker prediction
-Check [README.md](speaker_prediction/README.md).
+This is the core part of our model. 
+
+For details on how to detect characters and texts in comics and predict the speaker based on visual information, check  [README.md](speaker_prediction/README.md).
 
 ## Evaluation
+In addition to conventional metrics for evaluating SGG models, we have introduced a new metric tailored for comics: **Recall@(#text)**.
 ```
 # PredCls / SGCls
 python eval_and_vis/eval_original.py
@@ -25,6 +30,7 @@ python eval_and_vis/eval_original.py
 # SGDet
 python eval_and_vis/eval_original_sgdet.py
 ```
+You can find details on conventional evaluation metrics in [METRICS.md](https://github.com/KaihuaTang/Scene-Graph-Benchmark.pytorch/blob/master/METRICS.md).
 
 ## Visualization
 The visualization tools for predictions can be found in ``eval_and_vis/``.
