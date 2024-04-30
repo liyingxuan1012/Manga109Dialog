@@ -13,12 +13,10 @@ Check [INSTALL.md](speaker_prediction/INSTALL.md) for installation instructions.
 
 ## Data preprocessing
 Convert the annotations from Manga109 into a format suitable for the scene graph generation (SGG) models. 
-
 For more details, check [README.md](preprocessing/README.md).
 
 ## Speaker prediction
 This is the core part of our model. 
-
 For details on how to detect characters and texts in comics and predict the speaker based on visual information, check  [README.md](speaker_prediction/README.md).
 
 ## Evaluation
