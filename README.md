@@ -2,6 +2,17 @@
 
 Official repository of Manga109Dialog (ICME 2024) |
 [Paper](https://arxiv.org/abs/2306.17469) | [Dataset](https://github.com/manga109/public-annotations?tab=readme-ov-file#manga109dialog)
+
+## Overview
+To enhance the machine’s understanding of comics, we developed Manga109Dialog, which is the world’s largest speaker-to-text annotation dataset for comics. 
+We proposed a novel deep learning-based method using scene graph generation (SGG) models, providing a challenging yet realistic benchmark for comics speaker detection.
+The contributions of our work are summarized as follows.
+- We constructed Manga109Dialog, an annotation dataset of associations between speakers and texts. This is the largest comics dialogue dataset in the world.
+- We proposed a deep learning-based approach for comics speaker detection using SGG models. We enhance the performance by introducing frame information in the relationship prediction stage.
+- We established a new benchmark for evaluation, setting a standard for future research in this domain.
+
+<img width="919" alt="introduction" src="https://github.com/liyingxuan1012/Manga109Dialog/assets/81853956/0d7704ac-cd48-4eb3-b273-4cc794667f96">
+
 ## Prerequisites
 - **Manga109 dataset**
     - Download from http://www.manga109.org/en/download.html
