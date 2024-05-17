@@ -11,7 +11,9 @@ The contributions of our work are summarized as follows.
 - We proposed a deep learning-based approach for comics speaker detection using SGG models. We enhance the performance by introducing frame information in the relationship prediction stage.
 - We established a new benchmark for evaluation, setting a standard for future research in this domain.
 
-<img width="919" alt="introduction" src="https://github.com/liyingxuan1012/Manga109Dialog/assets/81853956/0d7704ac-cd48-4eb3-b273-4cc794667f96">
+<p align="center">
+   <img width=95% alt="introduction" src="https://github.com/liyingxuan1012/Manga109Dialog/assets/81853956/0d7704ac-cd48-4eb3-b273-4cc794667f96">
+</p>
 
 ## Prerequisites
 - **Manga109 dataset**
