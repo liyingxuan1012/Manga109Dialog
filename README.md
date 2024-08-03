@@ -56,8 +56,7 @@ When using annotations of Manga109Dialog, please cite our paper.
 @inproceedings{li2024manga109dialog,
   title={Manga109Dialog: A Large-scale Dialogue Dataset for Comics Speaker Detection},
   author={Li, Yingxuan and Aizawa, Kiyoharu and Matsui, Yusuke},
-  booktitle={2024 IEEE International Conference on Multimedia and Expo (ICME)},
-  year={2024},
-  organization={IEEE}
+  booktitle={Proceedings of the IEEE International Conference on Multimedia and Expo},
+  year={2024}
 }
 ```
